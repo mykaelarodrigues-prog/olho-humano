@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visão Viva | Anatomia Ocular</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Logo -->
+                <div class="logo">
+                    <i class="fas fa-eye"></i>
+                    <span>Visão Viva</span>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <ul class="nav-menu">
+                    <li><a href="#" class="active">Início</a></li>
+                    <li><a href="#">Anatomia</a></li>
+                    <li><a href="#">Saúde Ocular</a></li>
+                    <li><a href="#">Curiosidades</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <!-- Dark Mode Toggle -->
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    
+                    <!-- Hamburger -->
+                    <button id="hamburger" class="hamburger" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Anatomia</a></li>
+                <li><a href="#">Saúde Ocular</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <span class="badge">CIÊNCIA • SAÚDE</span>
+                    <h1>Íris e Pupila: O Controle Automático da Luz</h1>
+                    <p>Descubra como o olho humano regula a entrada de luz e protege a visão em qualquer ambiente.</p>
+                    <a href="#feed" class="btn-primary">Explorar Artigos</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- Placeholder para imagem de fundo de olho -->
+        </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="featured">
+        <div class="container">
+            <div class="section-header">
+                <h2>Destaque</h2>
+            </div>
+            <div class="featured-card">
+                <div class="featured-image">
+                    <img src="https://picsum.photos/id/1015/1200/800" alt="Estrutura do olho humano">
+                </div>
+                <div class="featured-content">
+                    <span class="category">Anatomia</span>
+                    <h3>O Reflexo Pupilar: Como o Cérebro Controla a Luz</h3>
+                    <p class="excerpt">Entenda o mecanismo automático que permite ao olho se adaptar rapidamente a mudanças de luminosidade, protegendo a retina.</p>
+                    <div class="meta">
+                        <span>6 min leitura</span>
+                        <span>Por Dr. Visão</span>
+                    </div>
+                    <a href="#" class="btn-secondary">Ler artigo completo →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWS FEED -->
+    <section id="feed" class="feed-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Últimas Notícias e Artigos</h2>
+                <a href="#" class="view-all">Ver todos <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div id="news-grid" class="news-grid">
+                <!-- Cards serão renderizados via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- QUICK FACTS -->
+    <section class="facts">
+        <div class="container">
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-icon"><i class="fas fa-sun"></i></div>
+                    <h4>Miose</h4>
+                    <p>Contração da pupila em ambientes claros</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon"><i class="fas fa-moon"></i></div>
+                    <h4>Midríase</h4>
+                    <p>Dilatação da pupila no escuro ou em situações de estresse</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon"><i class="fas fa-ruler-combined"></i></div>
+                    <h4>2mm a 8mm</h4>
+                    <p>Faixa de variação do diâmetro pupilar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="logo">
+                        <i class="fas fa-eye"></i>
+                        <span>Visão Viva</span>
+                    </div>
+                    <p>Explorando a fascinante anatomia do olho humano.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Explorar</h4>
+                    <ul>
+                        <li><a href="#">Íris</a></li>
+                        <li><a href="#">Pupila</a></li>
+                        <li><a href="#">Reflexos</a></li>
+                        <li><a href="#">Doenças</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Termos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Seu email">
+                        <button>Inscrever</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Visão Viva. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
